@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- TODO: ------------------- Required meta tags ------------------>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--TODO:----- Google Fonts(Optional) Roboto -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"> -->
+    <!--TODO:----- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!--TODO:----- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+    <!--TODO:------------- Custom Personalize css  -------------->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--TODO:-------------- Animation.css links(Please Include anim folder)  -------------->
+    <link rel="stylesheet" href="anim/css/libs/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <title></title>
+    <!--TODO:------ Adding icon of Max size of (100 X 100) in Tab bar -->
+    <link rel="shortcut icon" href="img/">
+</head>
+
+<body>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-sm-6 side-1 active">
+                <h2><span class="player row justify-content-center">Player 1</span></h2>
+                <h1 class="score row justify-content-center score1">0</h1>
+                <div class=" row justify-content-center">
+                    <div class="card w-50">
+                        <div class="card-body text-center">
+                            <h5 class="card-title  ">Current</h5>
+                            <p class="card-text  current-1">0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 side-2">
+                <h2><span class="player row justify-content-center">Player 2</span></h2>
+                <h1 class="score row justify-content-center score2">0</h1>
+                <div class=" row justify-content-center">
+                    <div class="card w-50">
+                        <div class="card-body text-center">
+                            <h5 class="card-title  ">Current</h5>
+                            <p class="card-text current-2">0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <button type="button" id="ngame" class="btn ">🔄 New Game</button>
+
+        </div>
+        <div class="row justify-content-center">
+            <div class="view">
+                <img src="img/dice-1.png" id="dice" alt="" class="img-fluid rounded waves-effect hide">
+                <a>
+                    <div class="mask waves-effect waves-light "></div>
+                </a>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <button type="button" id="rock-n-roll" class="btn ">🎲 Roll Dice</button>
+        </div>
+        <div class="row justify-content-center">
+            <button type="button" id="hold-it-up" class="btn ">📥 HOLD</button>
+        </div>
+        <!-- <div class="row">
+
+            <div class="col-sm-1"></div>
+            <div class="col-sm-3">
+                <div class="card">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Current</h5>
+                        <p class="card-text">0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
+                <div class="card">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Current</h5>
+                        <p class="card-text">0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div> -->
+    </div>
+
+
+
+
+
+    <!--TODO:----- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--TODO:----- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!--TODO:----- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!--TODO:----- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+    <!--TODO:----- Customize(User) JavaScript -->
+    <script src="js/script.js"></script>
+    <!--TODO:------------ Font awesome icons link  -------------->
+    <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+
+    <!--TODO:---------- Wow.js link and then script for scrolling animation  -------------->
+    <script src="anim/dist/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

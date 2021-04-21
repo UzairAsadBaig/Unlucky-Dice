@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+    height: 100vh; 
+    font-family: 'Nunito', sans-serif;
+}
+
+.container-fluid{
+margin-top: 3vh;
+width: 75%;
+height: 50vh; 
+}
+.side-1{
+    
+    border-radius: 1vh 0 0 1vh;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.side-2{
+    border-radius: 0 1vh 1vh 0;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.row .active{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.row .win{
+    background-color:black;
+    color: #c7365f;
+}
+
+.player{
+    margin-top: 15vh;
+    margin-bottom: 4vh;
+    font-size: 6vh;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.score{
+    margin-bottom: 20vh;
+    font-size: 12vh;
+    color: #c7365f;
+    font-weight: bold;
+}
+
+
+.container-fluid .row .col-sm-6{
+    height: 93vh;
+}
+
+.card{
+    background-color:  #c7365f;
+    color: white;
+    border-radius: 1vh;
+}
+
+.card-title{
+    font-size: 3vh;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card .card-body .card-text{
+    font-size: 7vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+.btn{
+    background-color:  rgba(255, 255, 255, 0.6);
+    font-weight: bold;
+    border-radius: 5vh;
+    letter-spacing: 1px;
+    font-size: 3vh;
+}
+#ngame{
+   position: absolute;
+   top: 7vh;
+ 
+}
+#rock-n-roll{
+   position: absolute;
+   top: 62vh;
+}
+#hold-it-up{
+   position: absolute;
+   top: 75vh;
+}
+.view{
+ position: absolute;
+   top: 25vh;
+   width: 17vh;
+
+}
+
+.row .view .hide{
+   display: none;
+}
