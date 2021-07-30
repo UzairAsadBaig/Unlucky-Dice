@@ -46,7 +46,7 @@ height: 50vh;
 }
 
 
-.container-fluid .row .col-sm-6{
+.container-fluid .row .col-6{
     height: 93vh;
 }
 
@@ -54,6 +54,7 @@ height: 50vh;
     background-color:  #c7365f;
     color: white;
     border-radius: 1vh;
+    width: 50%;
 }
 
 .card-title{
@@ -97,4 +98,73 @@ height: 50vh;
 
 .row .view .hide{
    display: none;
+}
+
+
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>Extra-Extra Small Devices */
+@media(max-width:575px) {
+
+    .container-fluid{
+        margin-top: 1.5vh;
+        width: 80%;
+        height: 40vh; 
+        }
+        
+        .player{
+            margin-top: 15vh;
+            margin-bottom: 6vh;
+            font-size: 1rem;
+        }
+        .score{
+            margin-bottom: 3rem;
+            font-size: 12vh;
+        }
+        
+        
+        .container-fluid .row .col-6{
+            height: 85vh;
+        }
+        
+        .card{
+            border-radius: 2vh;
+            width: 90%;
+        }
+        
+        .card-title{
+            font-size: 2vh;
+        }
+        
+        .card .card-body .card-text{
+            font-size: 3.5vh;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: white;
+        }
+        .btn{
+            border-radius: 1rem;
+            letter-spacing: 1px;
+            font-size: 1.5vh;
+            padding: 0.3rem 0.5rem ;
+        }
+        #ngame{
+           position: absolute;
+           top: 3.5vh;
+         
+        }
+        #rock-n-roll{
+           top: 72vh;
+        }
+        #hold-it-up{
+           top: 78vh;
+        }
+        .view{
+           top: 30vh;
+           width: 8vh;
+        
+        }
+               
 }
