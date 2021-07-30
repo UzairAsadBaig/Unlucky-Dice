@@ -116,11 +116,11 @@ height: 50vh;
         
         .player{
             margin-top: 15vh;
-            margin-bottom: 6vh;
+            margin-bottom: 8vh;
             font-size: 1rem;
         }
         .score{
-            margin-bottom: 3rem;
+            margin-bottom: 4rem;
             font-size: 10vh;
         }
         
